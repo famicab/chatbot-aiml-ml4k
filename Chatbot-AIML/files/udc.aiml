@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Lo siento, no te he entendido bien.
+        
+        Voy a darte un dato curioso sobre la compañía Tussam. ¿Sabías que...?
+        <random>
+            <li>Tussam se constituyó en 1975.</li>
+            <li>La primera flota de autobuses utilizaba el autobús Pegaso 6035.</li>
+            <li>En 1982 se implantaría el uso del bonobús, experiencia pionera en España.</li>
+            <li>Entre 1986 y 1987 se implantó un sistema GPS que permitía localizar en tiempo real a cualquier autobús de la flota.</li>
+            <li>En 2001 se contrató a la primera mujer como conductora de autobuses Tussam.</li>
+            <li>En 2008 se construyó una planta solar en el aparcamiento de autobuses Tussam, siendo un proyecto pionero en Europa.</li>
+            <li>En 2013 se lanzó la aplicación móvil, que permite la localización de cualquier autobús de la flota en tiempo real.</li>
+            <li>Desde 2019, todos nuestros autobuses cuentan con Wi-Fi.</li>
+        </random>
+        
+        Escribe - menú - para ver las opciones
+    </template>
+  </category>
+  <category>
+     <pattern> HOLA </pattern>
+    <template>
+        Hola!  
+        ¿En qué puedo ayudarte?
+        Escribe - menú - para ver las opciones
+    </template>    
+  </category>
+
+    <category>
+	    <pattern>BUENAS TARDES</pattern>
+	    <template><srai>HOLA</srai></template>
+	</category>
+
+    <category>
+	    <pattern>BUENOS DÍAS</pattern>
+	    <template><srai>HOLA</srai></template>
+	</category>
+
+    <category>
+	    <pattern>BUENOS DIAS</pattern>
+	    <template><srai>HOLA</srai></template>
+	</category>
+  <!-- MENU -->
+  <category>
+	    <pattern>MENÚ</pattern>
+	    <template>Escribe...
+	    - Líneas - para ver información sobre alguna línea.
+	    - Títulos - para consultar todos los títulos disponibles en la red de autobuses de Sevilla. 
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>MENU</pattern>
+	    <template><srai>MENÚ</srai></template>
+	</category>
+	
+    <!-- LINEAS -->
+	<category>
+	    <pattern>LÍNEAS</pattern>
+	    <template>Introduce la línea sobre la que deseas información <think><set name = "topic">lineas</set></think>
+	    - 1 - Polígono Norte - Glorieta Plus Ultra
+	    - 2 - Barqueta - Glorieta Heliópolis
+	    - 3 - Bellavista - Pino Montano
+	    - 5 - Puerta Triana - Santa Aurelia
+	    - 6 - San Lázaro - Glorieta Heliópolis
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>LINEAS</pattern>
+	    <template><srai>LÍNEAS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>LINEA 1</pattern>
+	    <template>Línea 1. Plg. Norte H. Virgen del Rocio .
+            Horario: 07:00 - 00:11 .
+            Trayecto: .
+            Doctor Fedriani (Avda. San Lázaro) .
+            Trabaj. Inmigrantes (Diego de Almagro).
+            Trabaj. Inmigrantes (Diego Puerta).
+            Trabaj. Inmigrantes (Los Romeros).
+            Sor Francisca Dorotea (Hdad. Trabajo).
+            Dr. Leal Castaños (Avda. San Lázaro) .
+            San Juan de Ribera (Policlínico) .
+            Muñoz León (Puerta de Córdoba) .
+            Ronda de Capuchinos (San Julián) .
+            Ronda de Capuchinos (La Trinidad) .
+            María Auxiliadora (Puerta Osario) .
+            Recaredo (San Roque) .
+            Menéndez Pelayo (Puerta Carmona) .
+            Menéndez Pelayo (Puerta de La Carne) .
+            Avenida Carlos V (Prado San Sebastián) .
+            Avenida La Borbolla (Capitanía) .
+            Avenida La Borbolla (Montevideo) .
+            Avenida La Borbolla (Plaza América) .
+            Manuel Siurot (Edificio La Estrella) .
+            Manuel Siurot (Cardenal Ilundain) .
+            Manuel Siurot (Hospital V.Rocio) .
+            Manuel Siurot (Francisco Murillo) .
+            Manuel Siurot (Carretera Su Eminencia) .
+            Ctra. Su Eminencia (Castillo de Marcheni) .</template>
+	</category>
+	
+    <category>
+	    <pattern>LÍNEA 1</pattern>
+	    <template><srai>LINEA 1</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LÍNEA 1</pattern>
+	    <template><srai>LINEA 1</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LINEA 1</pattern>
+	    <template><srai>LINEA 1</srai></template>
+	</category>
+
+    <category>
+	    <pattern>LINEA 2</pattern>
+	    <template>Línea 2. Barqueta Heliopolis .
+            Horario: 06:58 - 00:14 .
+            Trayecto: .
+            Resolana (Barqueta) .
+            Resolana (Feria) .
+            San Juan de Ribera (Macarena) .
+            San Juan de Ribera (Policlínico).
+            Doctor Leal Castaños (Huerta del Carmen).
+            Sor Francisca Dorotea (Bda. La Barzola) .
+            Ronda de Pío XII (Madreselva) .
+            Avenida Llanes (Miraflores) .
+            Avenida Llanes (Carretera Carmona) .
+            Alcalde Manuel del Valle (Jose Perez Ocaña) .
+            Alcalde Manuel del Valle (Hespérides) .
+            Alcalde Manuel del Valle (Kansas City) .
+            Éfeso (Avenida Soleá) .
+            Ada (Tarso) .
+            Ada (Avenida Montes Sierra) .
+            José M. Javierre (Los Arcos) .
+            Rda. Tamarguillo (Alejandro Collantes) .
+            Rda. Tamarguillo (Marqués de Pickman) .
+            Rda. Tamarguillo (Francisco Buendía) .
+            Ronda del Tamarguillo (Ramón y Cajal) .
+            Rda. Tamarguillo (Av. de La Paz) .
+            Poeta Manuel Benítez (Rda. La Oliva) .
+            Poeta Manuel Benítez (P. González Abato) .
+            Marqués Luca de Tena (Virgen del Rocío) .
+            Marqués Luca de Tena (Hospital V.Rocio) .
+            Padre G. Tejero (Est. Benito Villamarín) .
+            Glorieta Alcalde Parias Perry .</template>
+	</category>
+	
+    <category>
+	    <pattern>LÍNEA 2</pattern>
+	    <template><srai>LINEA 2</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LÍNEA 2</pattern>
+	    <template><srai>LINEA 2</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LINEA 2</pattern>
+	    <template><srai>LINEA 2</srai></template>
+	</category>
+
+    <category>
+	    <pattern>LINEA 3</pattern>
+	    <template>Línea 3. Bellavista-S. Jeronimo-Pino Montano .
+            Horario: 06:00 - 00:42 .
+            Trayecto: .
+            Ctra. Isla Menor (Inst. La Grasa) .
+            Avenida Bellavista (Hospital de Valme) .
+            Avda. Bellavista (Asensio y Toledo) .
+            Avda. Jerez (Jardines de Hércules).
+            Av. jerez (P.I. Pineda).
+            Avda. Alemania (Estrasburgo) .
+            Paseo de Europa (Lyon) .
+            Dr. Fleming (Est. Benito Villamarín) .
+            Reina Mercedes (Gta. Alc. Parias Merry) .
+            Reina Mercedes (Escuela de Arquitectura) .
+            La Palmera (Bueno Monreal) .
+            Paseo las Delicias (Glta. Marineros) .
+            Paseo Colón (Jardines Cristina) .
+            Marques de Paradas .
+            Torneo (Estacion Plaza de Armas) .
+            Torneo (San Lorenzo) .
+            Concejal Jiménez Becerril (Barqueta) .
+            Concejal Jiménez Becerril (José Díaz) .
+            Concej. Jiménez Becerril (Gta. Olímpica) .
+            José Galán Merino (Cantina) .
+            José Galán Merino (Alcalá del Río) .
+            Navarra (Larache) .
+            Cataluña (Parroquia San Jerónimo) .
+            Medina y Galnares (frt. Centro Salud) .
+            Biologia (frente El Higueron) .
+            Gta. Oceanografica (Parque Emp. Torneo) .
+            Estrella Canopus .
+            Agricultores (Sembradores) .
+            Agricultores (Garrochistas).</template>
+	</category>
+	
+    <category>
+	    <pattern>LÍNEA 3</pattern>
+	    <template><srai>LINEA 3</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LÍNEA 3</pattern>
+	    <template><srai>LINEA 3</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LINEA 3</pattern>
+	    <template><srai>LINEA 3</srai></template>
+	</category>
+
+    <category>
+	    <pattern>LINEA 5</pattern>
+	    <template>Línea 5. Puerta Triana - Santa Aurelia .
+            Horario: 05:56 - 00:35 .
+            Trayecto: .
+            Camino de Los descubr(Torre Sevilla) .
+            Ronda Triana (C.D. Álvarez Gordón) .
+            Ronda de Triana (Manuel Arellano) .
+            Ronda de Triana (San Vicente de Paúl).
+            López de Gomara (San Martín de Porres).
+            López de Gomara (Instituto Bécquer).
+            República Argentina (Virgen de África).
+            Avda. República Argentina (Calle Arcos) .
+            República Argentina (Plaza de Cuba) .
+            Palos de La Frontera (Teatro Lope de Vega) .
+            Menéndez Pelayo (Juzgados) .
+            Menéndez Pelayo (Diputación) .
+            Eduardo Dato (San Bernardo) .
+            Eduardo Dato (Colegio Porta Coeli) .
+            Eduardo Dato (Estadio Sánchez Pizjuán) .
+            Eduardo Dato (San Juan de Dios) .
+            Gran Plaza .
+            Marqués de Pickman (Mercado) .
+            Concej. Jiménez Becerril (Gta. Olímpica) .
+            José Galán Merino (Cantina) .
+            José Galán Merino (Alcalá del Río) .
+            Navarra (Larache) .
+            Cataluña (Parroquia San Jerónimo) .
+            Medina y Galnares (frt. Centro Salud) .
+            Biologia (frente El Higueron) .
+            Gta. Oceanografica (Parque Emp. Torneo) .
+            Estrella Canopus .
+            Agricultores (Sembradores) .
+            Agricultores (Garrochistas).</template>
+	</category>
+	
+    <category>
+	    <pattern>LÍNEA 5</pattern>
+	    <template><srai>LINEA 5</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LÍNEA 5</pattern>
+	    <template><srai>LINEA 5</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LINEA 5</pattern>
+	    <template><srai>LINEA 5</srai></template>
+	</category>
+
+    <category>
+	    <pattern>LINEA 6</pattern>
+	    <template>Línea 6. Gta. S. Lázaro - Hosp. V. Rocio .
+            Horario: 06:00 - 00:19 .
+            Trayecto: .
+            Glorieta San Lázaro (Romanticismo) .
+            Doctor Fedriani (Ágata) .
+            Doctor Fedriani (Doctor Marañón) .
+            José Díaz (Macarena Tres Huertas).
+            Concejal Jiménez Becerril (José Díaz).
+            Avda. Jiménez Becerril (F. Odontología) .
+            Concejal Jiménez Becerril (Barqueta) .
+            Torneo (Puerta de San Juan) .
+            Torneo (San Lorenzo) .
+            Torneo (Baños) .
+            Torneo (San Laureano) .
+            Cristo de La Expiración (Plaza de Armas) .
+            Jimenez de Quesada (Torre Sevilla) .
+            Ronda Triana (C.D. Álvarez Gordón) .
+            Ronda de Triana (Manuel Arellano) .
+            Ronda de Triana (San Vicente de Paúl) .
+            López de Gomara (San Martín de Porres) .
+            López de Gomara (Instituto Bécquer) .
+            Santa Fe (Niebla) .
+            Virgen de Luján (Virgen del Águila) .
+            Virgen de Luján (Juan Ramón Jiménez) .
+            Virgen de Luján (Sebastián Elcano) .
+            Paseo Las delicias (Pab. de Guatemala) .
+            Paseo Las delicias (Glorieta Méjico) .
+            La Palmera (Bueno Monreal) .
+            Sor Gregoria Santa Teresa .
+            Reina Mercedes (Escuela Ing. Edificación) .
+            Reina Mercedes (E.S.I. Informática) .
+            Reina Mercedes (Glta. Alc. Parias Merry) .
+            Padre G. Tejero (Est. Benito Villamarín) .
+            Manuel Siurot (Rafael Salgado) .
+            Marqués Luca de Tena (La Palmera) .
+            Padre G. Tejero (Est. Benito Villamarín) .</template>
+	</category>
+	
+    <category>
+	    <pattern>LÍNEA 6</pattern>
+	    <template><srai>LINEA 6</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LÍNEA 6</pattern>
+	    <template><srai>LINEA 6</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* LINEA 6</pattern>
+	    <template><srai>LINEA 6</srai></template>
+	</category>
+
+
+	<category>
+	    <pattern>*</pattern>
+	    <that>INTRODUCE LA LÍNEA SOBRE LA *</that>
+	    <template>
+	        <think>
+    	        <set name="linea"><star /></set>
+    	    </think>
+	        <condition name="linea">
+                <li value="1">
+                    <srai>LINEA 1</srai>
+                </li>
+                <li value="2">
+                    <srai>LINEA 2</srai>
+                </li>
+                <li value="3">
+                    <srai>LINEA 3</srai>
+                </li>
+                <li value="5">
+                    <srai>LINEA 5</srai>
+                </li>
+                <li value="6">
+                    <srai>LINEA 6</srai>
+                </li>
+                <li>Lo siento, no conozco esa línea
+                    
+                    Escribe - menú - para ver las opciones
+                </li>
+            </condition>
+        </template>
+	</category>
+	
+	<!-- TITULOS  -->
+	<category>
+	    <pattern>TÍTULOS</pattern>
+	    <template>La red de autobuses Tussam tiene disponibles todos estos títulos
+	              para que puedas realizar tu viaje
+	              - Billete Univiaje 
+	              - Tarjeta multiviaje 
+	              - Tarjeta turística
+	              - Tarjeta 30 días 
+	              - Tarjeta anual
+	              - Tarjeta estudiante 
+	              - Tarjeta infantil
+	              - Tarjeta 3ª edad 
+	              - Tarjeta solidaria
+	              - Tarjeta diversidad
+	              - Tarjeta social
+	              - Tarjeta joven
+	              
+	              ¿Deseas información sobre un título en concreto?</template>
+	              
+	</category>
+
+    <category>
+	    <pattern>* TITULOS *</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* TÍTULOS *</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* TÍTULOS</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* TITULOS</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* TARJETAS</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>* TARJETAS *</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>TITULOS</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+
+    <category>
+	    <pattern>TARJETAS</pattern>
+	    <template><srai>TÍTULOS</srai></template>
+	</category>
+	<category>
+	    <pattern>BILLETE UNIVIAJE</pattern>
+	    <template>Precio: 1,40€ .
+	    Se adquiere a bordo del autobús o en las máquinas dispensadoras de las 
+	    paradas del Metrocentro y sirve para un solo viaje. .
+        Una vez adquirido el título de viaje no será reintegrado su importe bajo ningún concepto, 
+        ni siquiera en caso de extravío o sustracción del mismo. .
+        La no utilización del billete no dará derecho a la devolución del importe.</template>
+	</category>
+	<category>
+	    <pattern>TARJETA *</pattern>
+	    <template>
+    	    <think>
+    	        <set name="tarjeta"><star /></set>
+    	    </think>
+            
+            <condition name="tarjeta">
+                <li value="multiviaje">Tarjeta recargable. Válida para tantos viajes como se desee. .
+                Precio sin transbordo:  0,69€ . Precio con transbordo: 0,76€ .
+                Tiene una recarga mínima de 7€ y una máxima de 50€. .
+                Al recargar puedes elegir si la quieres con opción de transbordo o no. .
+                Adquirir esta tarjeta tiene un costo de 1,50€ en concepto de fianza.</li>
+                <li value="turística">Se puede obtener por un período de un día o de 3 días. .
+                En función de la modalidad seleccionada tiene un costo de 5€ o 10€, respectivamente. .
+                Adquirir la tarjeta tiene un costo de 1,50€ en concepto de fianza. .
+                Se puede adquirir en los Puntos de Atención de Prado San Sebastián, Plaza Ponce de León y en Avda. Andalucía, 11.</li>
+                <li value="turistica">Se puede obtener por un período de un día o de 3 días. .
+                    En función de la modalidad seleccionada tiene un costo de 5€ o 10€, respectivamente. .
+                    Adquirir la tarjeta tiene un costo de 1,50€ en concepto de fianza. .
+                    Se puede adquirir en los Puntos de Atención de Prado San Sebastián, Plaza Ponce de León y en Avda. Andalucía, 11.</li>
+                <li value="30 días">Su uso es válido 30 días naturales sin límite de viajes..
+                Su precio: .
+                General: 35,30€ .
+                Familia numerosa general: 28,24€ .
+                Familia numerosa especial: 17,65€ .
+                Puedes tramitar su solicitud aquí: https://www.tussam.es/es/titulos-de-viajes#30dias-tramitacion</li>
+                <li value="30 dias">Su uso es válido 30 días naturales sin límite de viajes..
+                    Su precio: .
+                    General: 35,30€ .
+                    Familia numerosa general: 28,24€ .
+                    Familia numerosa especial: 17,65€ .
+                    Puedes tramitar su solicitud aquí: https://www.tussam.es/es/titulos-de-viajes#30dias-tramitacion</li>
+                <li value="anual">Tarjeta nominativa válida para los 365 días siguientes al primer uso. .
+                Su precio es de 320€ .
+                Puedes solicitarla aquí: https://www.tussam.es/es/titulos-de-viajes#anual-tramitacion</li>
+                <li value="estudiante">Esta tarjeta tiene validez entre el 1 de septiembre y el 31 de julio del año siguiente. .
+                Puedes pagar 190€ en dos plazos y tenerla activa todos los meses o pagarla mes a mes, con un costo de 19€ cada vez.</li>
+                <li value="infantil">Tarjeta gratuita para niños de entre 3 y 11 años.</li>
+                <li value="3ª edad">Tarjeta para mayores de 65 años y jubilados de más de 60. Es gratuita para rentas mensuales inferiores a 1.800,00€ .
+                A partir de ese umbral su precio tiene los siguientes tramos: .
+                Entre 1.800,01€ y 2.000,00€: 64€ .
+                Entre 2.000,01 y 2.200,00€: 80€ .
+                Entre 2.200,01€ y 2.500,00€: 96€ .
+                Por encima de 2.500,00€: 128€</li>
+                <li value="3 edad">Tarjeta para mayores de 65 años y jubilados de más de 60. Es gratuita para rentas mensuales inferiores a 1.800,00€ .
+                    A partir de ese umbral su precio tiene los siguientes tramos: .
+                    Entre 1.800,01€ y 2.000,00€: 64€ .
+                    Entre 2.000,01 y 2.200,00€: 80€ .
+                    Entre 2.200,01€ y 2.500,00€: 96€ .
+                    Por encima de 2.500,00€: 128€</li>
+                <li value="solidaria">Tarjeta gratuita para desempleados empadronados en Sevilla que figuren como demandantes de empleo en el Servicio Andaluz de Empleo.</li>
+                <li value="diversidad">Tarjeta grauita para personas con una discapacidad igual o superior al 65% y un nivel de ingresos inferior a 1,5 veces el IPREM.</li>
+                <li value="social">Esta tarjeta está dirigida a trabajadores cuyo salario es inferior al salario mínimo interprofesional.
+                Tiene un precio de 17,65€ y su validez es de un mes.</li>
+                <li value="joven">Para jóvenes entre 16 y 29 años. Su costo es de 17,65€.</li>
+                <li>Lo siento, no he entendido por qué tarjeta preguntabas. Asegúrate de que lo has escrito correctamente. Escribe "Títulos" para ver las tarjetas disponibles</li>
+            </condition>
+        </template>
+	</category>
+	<category>
+	    <pattern>SI</pattern>
+	    <that>La *</that>
+	    <template>¿Cuál? Escribe uno de los títulos que te he indicado anteriormente.</template>
+	</category>
+
+    <category>
+	    <pattern>Probando</pattern>
+	    <template>Test necesario
+            para saber lo que pasa
+        </template>
+	</category>
+    <category>
+	    <pattern>Test</pattern>
+	    <that>Test *</that>
+	    <template>Conseguiste llegar al that!</template>
+	</category>
+</aiml>

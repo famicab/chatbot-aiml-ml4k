@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>Hola</template>
+    </category>
+
+    <category>
+        <pattern>LINEAS</pattern>
+        <template>Actualmente tengo información sobre las lineas 1, 2, 3, 5 y 6.
+        Las demás se añadirán en funciones futuras. ¿Sobre cual de ellas quieres información?</template>
+    </category>
+
+    <category>
+        <pattern>TITULOS</pattern>
+        <template>Puedo darte información sobre los siguientes títulos: Billete univiaje,Tarjeta multiviaje,Tarjeta turística,Tarjeta 30 días,Tarjeta anual,Tarjeta estudiante,¿Quieres información sobre alguno?</template>
+    </category>
+
+    <category>
+        <pattern>LINEA_1</pattern>
+        <template>
+            Línea 1. Plg. Norte H. Virgen del Rocio
+            Horario: 07:00 - 00:11
+            Trayecto:
+            Doctor Fedriani (Avda. San Lázaro),Trabaj. Inmigrantes (Diego de Almagro),Trabaj. Inmigrantes (Diego Puerta),Trabaj. Inmigrantes (Los Romeros),Sor Francisca Dorotea (Hdad. Trabajo),Dr. Leal Castaños (Avda. San Lázaro),San Juan de Ribera (Policlínico),Muñoz León (Puerta de Córdoba),Ronda de Capuchinos (San Julián),Ronda de Capuchinos (La Trinidad),María Auxiliadora (Puerta Osario),Recaredo (San Roque),Menéndez Pelayo (Puerta Carmona),Menéndez Pelayo (Puerta de La Carne),Avenida Carlos V (Prado San Sebastián),Avenida La Borbolla (Capitanía),Avenida La Borbolla (Montevideo),Avenida La Borbolla (Plaza América),Manuel Siurot (Edificio La Estrella),Manuel Siurot (Cardenal Ilundain),Manuel Siurot (Hospital V.Rocio),Manuel Siurot (Francisco Murillo),Manuel Siurot (Carretera Su Eminencia),Ctra. Su Eminencia (Castillo de Marcheni),¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>LINEA_2</pattern>
+        <template>
+        Línea 2. Barqueta Heliopolis
+            Horario: 06:58 - 00:14
+            Trayecto:
+            Resolana (Barqueta),Resolana (Feria),San Juan de Ribera (Macarena),San Juan de Ribera (Policlínico),Doctor Leal Castaños (Huerta del Carmen),Sor Francisca Dorotea (Bda. La Barzola),Ronda de Pío XII (Madreselva),Avenida Llanes (Miraflores),Avenida Llanes (Carretera Carmona),Alcalde Manuel del Valle (Jose Perez Ocaña),Alcalde Manuel del Valle (Hespérides),Alcalde Manuel del Valle (Kansas City),Éfeso (Avenida Soleá),Ada (Tarso),Ada (Avenida Montes Sierra),José M. Javierre (Los Arcos),Rda. Tamarguillo (Alejandro Collantes),Rda. Tamarguillo (Marqués de Pickman),Rda. Tamarguillo (Francisco Buendía),Ronda del Tamarguillo (Ramón y Cajal),Rda. Tamarguillo (Av. de La Paz),Poeta Manuel Benítez (Rda. La Oliva),Poeta Manuel Benítez (P. González Abato),Marqués Luca de Tena (Virgen del Rocío),Marqués Luca de Tena (Hospital V.Rocio),Padre G. Tejero (Est. Benito Villamarín),Glorieta Alcalde Parias Perry,¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+
+    <category>
+        <pattern>LINEA_3</pattern>
+        <template>
+        Línea 3. Bellavista-S. Jeronimo-Pino Montano
+            Horario: 06:00 - 00:42
+            Trayecto:
+            Ctra. Isla Menor (Inst. La Grasa),Avenida Bellavista (Hospital de Valme),Avda. Bellavista (Asensio y Toledo),Avda. Jerez (Jardines de Hércules),Av. jerez (P.I. Pineda),Avda. Alemania (Estrasburgo),Paseo de Europa (Lyon),Dr. Fleming (Est. Benito Villamarín),Reina Mercedes (Gta. Alc. Parias Merry),Reina Mercedes (Escuela de Arquitectura),La Palmera (Bueno Monreal),Paseo las Delicias (Glta. Marineros),Paseo Colón (Jardines Cristina),Marques de Paradas,Torneo (Estacion Plaza de Armas),Torneo (San Lorenzo),Concejal Jiménez Becerril (Barqueta),Concejal Jiménez Becerril (José Díaz),Concej. Jiménez Becerril (Gta. Olímpica),José Galán Merino (Cantina),José Galán Merino (Alcalá del Río),Navarra (Larache),Cataluña (Parroquia San Jerónimo),Medina y Galnares (frt. Centro Salud),Biologia (frente El Higueron),Gta. Oceanografica (Parque Emp. Torneo),Estrella Canopus,Agricultores (Sembradores),Agricultores (Garrochistas),¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+
+    <category>
+        <pattern>LINEA_5</pattern>
+        <template>
+        Línea 5. Puerta Triana - Santa Aurelia,
+            Horario: 05:56 - 00:35
+            Trayecto:
+            Camino de Los descubr(Torre Sevilla),Ronda Triana (C.D. Álvarez Gordón),Ronda de Triana (Manuel Arellano),Ronda de Triana (San Vicente de Paúl),López de Gomara (San Martín de Porres),López de Gomara (Instituto Bécquer),República Argentina (Virgen de África),Avda. República Argentina (Calle Arcos),República Argentina (Plaza de Cuba),Palos de La Frontera (Teatro Lope de Vega),Menéndez Pelayo (Juzgados),Menéndez Pelayo (Diputación),Eduardo Dato (San Bernardo),Eduardo Dato (Colegio Porta Coeli),Eduardo Dato (Estadio Sánchez Pizjuán),Eduardo Dato (San Juan de Dios),Gran Plaza,Marqués de Pickman (Mercado),Concej. Jiménez Becerril (Gta. Olímpica),José Galán Merino (Cantina),José Galán Merino (Alcalá del Río),Navarra (Larache),Cataluña (Parroquia San Jerónimo),Medina y Galnares (frt. Centro Salud),Biologia (frente El Higueron),Gta. Oceanografica (Parque Emp. Torneo),Estrella Canopus,Agricultores (Sembradores),Agricultores (Garrochistas),¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+
+    <category>
+        <pattern>LINEA_6</pattern>
+        <template>
+        Línea 6. Gta. S. Lázaro - Hosp. V. Rocio,
+            Horario: 06:00 - 00:19,
+            Trayecto:
+            Glorieta San Lázaro (Romanticismo),Doctor Fedriani (Ágata),Doctor Fedriani (Doctor Marañón),José Díaz (Macarena Tres Huertas),Concejal Jiménez Becerril (José Díaz),Avda. Jiménez Becerril (F. Odontología),Concejal Jiménez Becerril (Barqueta),Torneo (Puerta de San Juan),Torneo (San Lorenzo),Torneo (Baños),Torneo (San Laureano),Cristo de La Expiración (Plaza de Armas),Jimenez de Quesada (Torre Sevilla)    Ronda Triana (C.D. Álvarez Gordón),Ronda de Triana (Manuel Arellano),Ronda de Triana (San Vicente de Paúl),López de Gomara (San Martín de Porres),López de Gomara (Instituto Bécquer),Santa Fe (Niebla),Virgen de Luján (Virgen del Águila),Virgen de Luján (Juan Ramón Jiménez),Virgen de Luján (Sebastián Elcano)Paseo Las delicias (Pab. de Guatemala),Paseo Las delicias (Glorieta Méjico),La Palmera (Bueno Monreal),Sor Gregoria Santa Teresa,Reina Mercedes (Escuela Ing. Edificación),Reina Mercedes (E.S.I. Informática),Reina Mercedes (Glta. Alc. Parias Merry),Padre G. Tejero (Est. Benito Villamarín),Manuel Siurot (Rafael Salgado),Marqués Luca de Tena (La Palmera),Padre G. Tejero (Est. Benito Villamarín),¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+
+    <category>
+        <pattern>BILLETE_UNIVIAJE</pattern>
+        <template>
+        Precio: 1,40€
+            Se adquiere a bordo del autobús o en las máquinas dispensadoras de las paradas del Metrocentro y sirve para un solo viaje.
+            Una vez adquirido el título de viaje no será reintegrado su importe bajo ningún concepto, ni siquiera en caso de extravío o sustracción del mismo.
+            La no utilización del billete no dará derecho a la devolución del importe.
+            ¿Puedo ayudarte en algo más?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TARJETA_MULTIVIAJE</pattern>
+        <template>
+        Tarjeta recargable. Válida para tantos viajes como se desee.
+            Precio sin transbordo: 0,69€
+            Precio con transbordo: 0,76€
+            Tiene una recarga mínima de 7€ y una máxima de 50€.
+            Al recargar puedes elegir si la quieres con opción de transbordo o no.
+            Adquirir esta tarjeta tiene un costo de 1,50€ en concepto de fianza.
+            ¿Puedo ayudarte en algo más?</template>
+    </category>
+
+    <category>
+        <pattern>TARJETA_TURISTICA</pattern>
+        <template>
+        Se puede obtener por un período de un día o de 3 días.
+            En función de la modalidad seleccionada tiene un costo de 5€ o 10€, respectivamente.
+            Adquirir la tarjeta tiene un costo de 1,50€ en concepto de fianza.
+            Se puede adquirir en los Puntos de Atención de Prado San Sebastián, Plaza Ponce de León y en Avda. Andalucía, 11.
+            ¿Puedo ayudarte en algo más?</template>
+    </category>
+
+    <category>
+        <pattern>TARJETA_30_DIAS</pattern>
+        <template>Su uso es válido 30 días naturales sin límite de viajes.
+            Su precio:
+            General: 35,30€
+            Familia numerosa general: 28,24€
+            Familia numerosa especial: 17,65€ 
+            ¿Puedo ayudarte en algo más?</template>
+    </category>
+
+    <category>
+        <pattern>TARJETA_ANUAL</pattern>
+        <template>Tarjeta nominativa válida para los 365 días siguientes al primer uso.
+            Su precio es de 320€ 
+            ¿Puedo ayudarte en algo más?</template>
+    </category>
+
+    <category>
+        <pattern>TARJETA_ESTUDIANTE</pattern>
+        <template>
+        Esta tarjeta tiene validez entre el 1 de septiembre y el 31 de julio del año siguiente.
+            Puedes pagar 190€ en dos plazos y tenerla activa todos los meses o pagarla mes a mes, con un costo de 19€ cada vez.
+            ¿Puedo ayudarte en algo más?</template>
+    </category>
+    
+    <category>
+        <pattern>SALUDO</pattern>
+        <template>
+            <random>
+                <li>Hola :) ¿En qué puedo ayudarte?</li>
+                <li>Hola. ¿Necesitas ayuda?</li>
+                <li>Hola! Dime en que puedo ayudarte</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>AYUDA</pattern>
+        <template>He sido entrenado para darte información sobre las líneas de autobuses de Sevilla y los diferentes titulos/tarjetas disponibles.</template>
+    </category>
+ </aiml>
