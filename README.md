@@ -22,7 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
-Chatbot about the public transport in Seville, Spain. He gives information about different bus lines and prices. Watch an example [here](https://youtu.be/73zNS9CClaE).
+Chatbot about the public transport in Seville (Spain) which gives information about different bus lines and prices. Watch an example [here](https://youtu.be/73zNS9CClaE).
 
 AI model trained with  [Machine Learning for Kids](https://machinelearningforkids.co.uk/).
 
